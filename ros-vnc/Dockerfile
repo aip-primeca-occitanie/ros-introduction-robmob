@@ -11,8 +11,8 @@ RUN apt-get update -qqy \
     tigervnc-standalone-server \
     tigervnc-xorg-extension \
     terminator \
-    turtlebot3_description \    
-    turtlebot3_simulations \
+    ros-melodic-turtlebot3-description \
+    ros-melodic-turtlebot3-simulations \
     x11-apps \
     xfce4 \
  && rm -rf /var/lib/apt/lists/* \
@@ -22,5 +22,3 @@ RUN apt-get update -qqy \
 
 ADD entrypoint.sh /
 CMD /entrypoint.sh
-
-
