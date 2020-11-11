@@ -1,3 +1,5 @@
+# NOTE : Supported by ROSIN - ROS Industrial Quality-assured Robot Software Components. More information: https://www.rosin-project.eu/ This work has received funding from the European Union‘s Horizon 2020 research and innovation programme under grant agreement No 732287. 
+
 # Dockerfiles for AIP Primeca Occitanie
 
 ## docker-vnc
